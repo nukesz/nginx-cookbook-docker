@@ -7,7 +7,7 @@ You should have `docker` installed on your machine to run these examples.
 
 ## Run NGINX
 ```sh
-docker run --name nginx -p 9999:80 nginx
+docker run --name nginx -p 9999:80 -d nginx
 ```
 
 ## Test the default site
